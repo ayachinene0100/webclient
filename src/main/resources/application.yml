@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: none
+
+logging:
+  level:
+    org:
+      ruisnow:
+        webclient:
+          config:
+            WebClientConfig: debug
